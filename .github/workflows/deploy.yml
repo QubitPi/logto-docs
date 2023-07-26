@@ -1,0 +1,29 @@
+name: Deploy
+
+on:
+  push:
+    branches: [master]
+
+concurrency: deploy
+
+jobs:
+  deploy:
+    environment: production
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node and pnpm
+        uses: silverhand-io/actions-node-pnpm-run-steps@v4
+
+      - name: Build
+        run: pnpm build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
+          user_name: QubitPi
+          user_email: jack20191124@proton.me
