@@ -44,14 +44,14 @@ const injectPlausiblePlugin = () => ({
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Logto docs',
-  url: 'https://docs.logto.io',
-  baseUrl: '/',
+  title: 'Logto Docs',
+  url: 'https://QubitPi.github.io/',
+  baseUrl: '/logto-docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'logto-io', // Usually your GitHub org/user name.
-  projectName: 'docs', // Usually your repo name.
+  organizationName: 'QubitPi', // Usually your GitHub org/user name.
+  projectName: 'logto-docs', // Usually your repo name.
 
   i18n: {
     defaultLocale: 'en',
