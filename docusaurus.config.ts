@@ -163,14 +163,14 @@ const injectHeadTagsPlugin: PluginConfig = () => ({
 
 const config: Config = {
   title: 'Logto docs',
-  url: getLogtoDocsUrl(),
+  url: 'https://logto.qubitpi.org',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenAnchors: 'throw',
   onBrokenMarkdownLinks: 'throw',
   favicon: '/img/favicon.ico',
-  organizationName: 'logto-io', // Usually your GitHub org/user name.
-  projectName: 'docs', // Usually your repo name.
+  organizationName: 'QubitPi', // Usually your GitHub org/user name.
+  projectName: 'logto-docs', // Usually your repo name.
 
   i18n: {
     defaultLocale: 'en',
