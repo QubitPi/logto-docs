@@ -19,21 +19,16 @@ import {
 } from './docusaurus-common.config';
 import ogImageGenerator from './plugins/og-image-generator';
 
-const getLogtoDocsUrl = () =>
-  isCfPagesPreview
-    ? `https://${getCloudflareSubdomain(cfPagesBranch)}.logto-docs.pages.dev/`
-    : mainSiteUrl;
-
 const config: Config = {
   title: 'Logto docs',
-  url: getLogtoDocsUrl(),
+  url: 'https://logto.qubitpi.org',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenAnchors: 'throw',
   onBrokenMarkdownLinks: 'throw',
   favicon: '/img/favicon.ico',
-  organizationName: 'logto-io',
-  projectName: 'docs',
+  organizationName: 'QubitPi',
+  projectName: 'logto-docs',
 
   i18n: {
     defaultLocale,
