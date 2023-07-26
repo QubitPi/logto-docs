@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_logto_docs=self.webpackChunk_logto_docs||[]).push([[87091],{36020:function(o){o.exports=JSON.parse('{"label":"hasura","permalink":"/logto-docs/blog/tags/hasura","allTagsPath":"/logto-docs/blog/tags","count":1}')}}]);

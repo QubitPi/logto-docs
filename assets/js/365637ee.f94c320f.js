@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_logto_docs=self.webpackChunk_logto_docs||[]).push([[26199],{68083:function(o){o.exports=JSON.parse('{"label":"android","permalink":"/logto-docs/tutorial/tags/android","allTagsPath":"/logto-docs/tutorial/tags","count":14}')}}]);

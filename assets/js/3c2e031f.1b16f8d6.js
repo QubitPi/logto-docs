@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_logto_docs=self.webpackChunk_logto_docs||[]).push([[13962],{86589:function(t){t.exports=JSON.parse('{"label":"react","permalink":"/logto-docs/tutorial/tags/react","allTagsPath":"/logto-docs/tutorial/tags","count":14}')}}]);

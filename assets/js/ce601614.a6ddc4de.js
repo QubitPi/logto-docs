@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_logto_docs=self.webpackChunk_logto_docs||[]).push([[33121],{93995:function(o){o.exports=JSON.parse('{"label":"sendgrid","permalink":"/logto-docs/tutorial/tags/sendgrid","allTagsPath":"/logto-docs/tutorial/tags","count":8}')}}]);

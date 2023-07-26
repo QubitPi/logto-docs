@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_logto_docs=self.webpackChunk_logto_docs||[]).push([[96342],{61268:function(o){o.exports=JSON.parse('{"permalink":"/logto-docs/tutorial/tags/express/page/2","page":2,"postsPerPage":10,"totalPages":2,"totalCount":14,"previousPage":"/logto-docs/tutorial/tags/express","blogDescription":"Blog","blogTitle":"Blog"}')}}]);

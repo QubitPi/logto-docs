@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_logto_docs=self.webpackChunk_logto_docs||[]).push([[33700],{83779:function(o){o.exports=JSON.parse('{"label":"saml","permalink":"/logto-docs/tutorial/tags/saml","allTagsPath":"/logto-docs/tutorial/tags","count":8}')}}]);
