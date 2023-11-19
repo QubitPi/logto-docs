@@ -128,6 +128,32 @@ Finally, you will see the message like:
 - [Node.js](https://nodejs.org/) `^18.12.0`
 - [PostgreSQL](https://postgresql.org/) `^14.0`
 
+  <details>
+
+  <summary>Install PostgreSQL on Mac</summary>
+
+  In case we would like to test a deployment, we could install a local PostgreSQL on, for example, Mac with homebrew:
+
+  ```
+  brew install postgresql@15
+  echo 'export PATH="/usr/local/opt/postgresql@15/bin:$PATH"' >> /Users/.../.bash_profile
+  brew services start postgresql@15
+  ```
+
+  Let's create a DB with
+
+  ```
+  $ psql postgres
+  psql (15.5 (Homebrew))
+  Type "help" for help.
+
+  postgres=# CREATE DATABASE logto;
+  ```
+
+  This database will be accessible via `postgresql://localhost:5432/logto`
+
+  </details>
+
 Higher versions usually work but are not guaranteed.
 
 We recommend using a new empty database which is dedicated for Logto, while it&apos;s not a hard requirement.
