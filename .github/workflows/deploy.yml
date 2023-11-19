@@ -1,6 +1,7 @@
 name: Deploy
 
 on:
+  pull_request:
   push:
     branches: [master]
 
@@ -26,4 +27,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
           user_name: QubitPi
-          user_email: jack20191124@proton.me
+          user_email: jack20220723@gmail.com
