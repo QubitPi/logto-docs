@@ -45,8 +45,8 @@ const injectPlausiblePlugin = () => ({
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Logto Docs',
-  url: 'https://QubitPi.github.io/',
-  baseUrl: '/logto-docs/',
+  url: 'https://logto.qubitpi.org',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
