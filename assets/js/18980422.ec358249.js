@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_logto_docs=self.webpackChunk_logto_docs||[]).push([[25364],{16716:function(o){o.exports=JSON.parse('{"label":"oidc","permalink":"/logto-docs/tutorial/tags/oidc","allTagsPath":"/logto-docs/tutorial/tags","count":8}')}}]);

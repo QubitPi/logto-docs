@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_logto_docs=self.webpackChunk_logto_docs||[]).push([[69674],{58793:function(o){o.exports=JSON.parse('{"label":"azure-ad","permalink":"/logto-docs/tutorial/tags/azure-ad","allTagsPath":"/logto-docs/tutorial/tags","count":8}')}}]);

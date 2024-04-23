@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_logto_docs=self.webpackChunk_logto_docs||[]).push([[34570],{84780:function(o){o.exports=JSON.parse('{"label":"typescript","permalink":"/logto-docs/blog/tags/typescript","allTagsPath":"/logto-docs/blog/tags","count":1}')}}]);

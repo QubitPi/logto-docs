@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_logto_docs=self.webpackChunk_logto_docs||[]).push([[84204],{39114:function(o){o.exports=JSON.parse('{"label":"oauth2","permalink":"/logto-docs/tutorial/tags/oauth-2","allTagsPath":"/logto-docs/tutorial/tags","count":8}')}}]);

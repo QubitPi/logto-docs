@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_logto_docs=self.webpackChunk_logto_docs||[]).push([[10058],{29330:function(o){o.exports=JSON.parse('{"label":"kotlin/java","permalink":"/logto-docs/tutorial/tags/kotlin-java","allTagsPath":"/logto-docs/tutorial/tags","count":14}')}}]);

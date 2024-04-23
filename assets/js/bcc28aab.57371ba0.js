@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_logto_docs=self.webpackChunk_logto_docs||[]).push([[73280],{12050:function(o){o.exports=JSON.parse('{"label":"apple","permalink":"/logto-docs/tutorial/tags/apple","allTagsPath":"/logto-docs/tutorial/tags","count":8}')}}]);

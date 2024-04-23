@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_logto_docs=self.webpackChunk_logto_docs||[]).push([[49842],{23105:function(o){o.exports=JSON.parse('{"permalink":"/logto-docs/tutorial/tags/ios-swift/page/2","page":2,"postsPerPage":10,"totalPages":2,"totalCount":14,"previousPage":"/logto-docs/tutorial/tags/ios-swift","blogDescription":"Blog","blogTitle":"Blog"}')}}]);

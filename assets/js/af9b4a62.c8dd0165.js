@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_logto_docs=self.webpackChunk_logto_docs||[]).push([[70527],{38975:function(t){t.exports=JSON.parse('{"label":"flutter","permalink":"/logto-docs/tutorial/tags/flutter","allTagsPath":"/logto-docs/tutorial/tags","count":14}')}}]);

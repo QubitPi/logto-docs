@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_logto_docs=self.webpackChunk_logto_docs||[]).push([[13565],{86549:function(o){o.exports=JSON.parse('{"label":"ciam","permalink":"/logto-docs/blog/tags/ciam","allTagsPath":"/logto-docs/blog/tags","count":2}')}}]);

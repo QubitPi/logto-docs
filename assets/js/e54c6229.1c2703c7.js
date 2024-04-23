@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_logto_docs=self.webpackChunk_logto_docs||[]).push([[81912],{33409:function(o){o.exports=JSON.parse('{"permalink":"/logto-docs/tutorial/tags/passwordless-sign-in","page":1,"postsPerPage":10,"totalPages":3,"totalCount":24,"nextPage":"/logto-docs/tutorial/tags/passwordless-sign-in/page/2","blogDescription":"Blog","blogTitle":"Blog"}')}}]);
