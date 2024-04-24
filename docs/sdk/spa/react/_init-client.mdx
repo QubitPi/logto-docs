@@ -18,3 +18,56 @@ const App = () => (
   </LogtoProvider>
 );
 ```
+
+:::caution[`LogtoProvider` will implicity re-render contained component]
+
+React has a powerful composition model. The `LogtoProvider` uses _containment_ to reuse code between components.
+
+Some components don't know their children ahead of time. This is especially common for components like `LogtoProvider`
+that represent generic OAuth2 flows. Such components use the special `children` prop to pass children elements directly
+into part of their rendering:
+
+```tsx
+const LogtoProvider = ({ config, LogtoClientClass = LogtoClient, children, unstable_enableCache = false, }) => {
+  ...
+
+  return jsx(LogtoContext.Provider, { value: memorizedContextValue, children: children });
+};
+```
+
+This lets other components pass arbitrary children to them by nesting the JSX:
+
+```tsx
+<LogtoProvider config={config}>
+  <YourAppContent />
+</LogtoProvider>
+```
+
+Anything inside the `<LogtoProvider>` JSX tag gets passed into the `LogtoProvider` component as a `children` prop.
+
+By composition, the children takes advantage of
+[Inversion of Control](https://en.wikipedia.org/wiki/Inversion_of_control) by delegating the OAuth2 flows to logto
+library. The tricky part, however, is that the transparency of logto gets polluted into React business logics. For
+example, the `<LogtoProvider>` has a [side effect](<https://en.wikipedia.org/wiki/Side_effect_(computer_science)>) of
+
+```tsx
+useEffect(() => {
+  (async () => {
+    const isAuthenticated = await memorizedLogtoClient.logtoClient.isAuthenticated();
+    setIsAuthenticated(isAuthenticated);
+    setLoadingCount((count) => Math.max(0, count - 1));
+  })();
+}, [memorizedLogtoClient]);
+```
+
+Since the async operation invokes `setIsAuthenticated`, any client-side logic of
+
+```tsx
+const { isAuthenticated } = useLogto();
+```
+
+will **trigger a component re-rendering** and in fact, since LogtoContext always
+[initializes `isAuthenticated` to `false`](https://github.com/logto-io/js/blob/957a1c92e5c24764f343fbc1fbb0284afb9617c4/packages/react/src/context.tsx#L43),
+executing the OAuth2 flow on our app **will almost always trigger the component re-rendering at least once**
+
+:::
