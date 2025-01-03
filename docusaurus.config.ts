@@ -165,6 +165,7 @@ const config: Config = {
   title: 'Logto docs',
   url: 'https://logto.qubitpi.org',
   baseUrl: '/',
+  noIndex: true,
   onBrokenLinks: 'throw',
   onBrokenAnchors: 'throw',
   onBrokenMarkdownLinks: 'throw',
