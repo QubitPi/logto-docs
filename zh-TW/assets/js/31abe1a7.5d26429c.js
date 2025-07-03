@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_logto_docs=self.webpackChunk_logto_docs||[]).push([[5172],{52594:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/zh-TW/terms","page":1,"postsPerPage":10,"totalPages":1,"totalCount":5,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
