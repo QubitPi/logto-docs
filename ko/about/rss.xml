@@ -4,7 +4,7 @@
         <title>Logto docs Blog</title>
         <link>https://logto.qubitpi.org/ko/about</link>
         <description>Logto docs Blog</description>
-        <lastBuildDate>Fri, 11 Jul 2025 19:22:22 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 15 Jul 2025 15:41:42 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ko</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[cloud-preview]]></title>
             <link>https://logto.qubitpi.org/ko/about/cloud-preview</link>
             <guid>https://logto.qubitpi.org/ko/about/cloud-preview</guid>
-            <pubDate>Fri, 11 Jul 2025 19:22:22 GMT</pubDate>
+            <pubDate>Tue, 15 Jul 2025 15:41:42 GMT</pubDate>
             <description><![CDATA[{/ truncate /}]]></description>
             <content:encoded><![CDATA[
 <p>Thank you for joining us in Logto Cloud (Preview), giving you a sneak peek into our current progress. Logto Cloud is built on top of Logto OSS, providing a seamless upgrade path without incurring heavy overhead.</p>
